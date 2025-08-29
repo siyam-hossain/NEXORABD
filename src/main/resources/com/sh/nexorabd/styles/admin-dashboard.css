@@ -19,3 +19,7 @@
 .dashboard-button:hover .label {
     -fx-text-fill: white;
 }
+.selected{
+    -fx-background-color: #DCDCDC;
+    -fx-text-fill: white;
+}

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import java.lang.String?>
 <?import javafx.geometry.Insets?>
 <?import javafx.scene.Cursor?>
 <?import javafx.scene.chart.BarChart?>
@@ -35,7 +36,7 @@
                         <Insets left="10.0" top="90.0" />
                      </VBox.margin>
                   </Label>
-                  <HBox alignment="CENTER_LEFT" prefHeight="42.0" prefWidth="120.0" spacing="5.0" styleClass="dashboard-button">
+                  <HBox alignment="CENTER_LEFT" prefHeight="42.0" prefWidth="120.0" spacing="5.0">
                      <children>
                         <ImageView>
                            <image>
@@ -54,6 +55,10 @@
                      <cursor>
                         <Cursor fx:constant="HAND" />
                      </cursor>
+                     <styleClass>
+                        <String fx:value="dashboard-button" />
+                        <String fx:value="selected" />
+                     </styleClass>
                   </HBox>
                   <HBox alignment="CENTER_LEFT" layoutX="20.0" layoutY="125.0" prefHeight="42.0" prefWidth="120.0" spacing="5.0" styleClass="dashboard-button">
                      <children>
