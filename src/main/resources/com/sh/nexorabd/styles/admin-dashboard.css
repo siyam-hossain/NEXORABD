@@ -1,0 +1,21 @@
+.dashboard-cards{
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.25), 10, 0.3, 0, 4);
+}
+
+.dashboard-cards-icon {
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.3), 20, 0.3, 0, 12);
+}
+
+.dashboard-button{
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+}
+.dashboard-button:hover{
+    -fx-background-color:  #3465FF;
+}
+.dashboard-button:hover .label {
+    -fx-text-fill: white;
+}

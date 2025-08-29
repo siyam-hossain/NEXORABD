@@ -8,4 +8,6 @@ module com.sh.nexorabd {
 
     opens com.sh.nexorabd to javafx.fxml;
     exports com.sh.nexorabd;
+    exports com.sh.nexorabd.controllers;
+    opens com.sh.nexorabd.controllers to javafx.fxml;
 }
