@@ -1,0 +1,72 @@
+.dashboard-cards{
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.25), 10, 0.3, 0, 4);
+}
+
+.dashboard-cards-icon {
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.3), 20, 0.3, 0, 12);
+}
+
+.dashboard-button{
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+}
+.dashboard-button:hover{
+    -fx-background-color:  #3465FF;
+}
+.dashboard-button:hover .label {
+    -fx-text-fill: white;
+}
+.selected{
+    -fx-background-color: #DCDCDC;
+    -fx-text-fill: white;
+}
+.section{
+    -fx-border-color: #dad7d7;
+    -fx-border-radius: 7px;
+    -fx-background-radius: 7px;
+
+}
+.section:hover{
+    -fx-border-color: #8eb5ff;
+    -fx-background-color: white;
+}
+.field:hover{
+    -fx-border-color: #8eb5ff;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.3), 20, 0.3, 0, 12);
+}
+.combobox{
+    -fx-background-color: white;
+    -fx-border-color: #dad7d7;
+
+}
+.add-image{
+    -fx-border-color: #dad7d7;
+    -fx-border-radius: 7px;
+    -fx-background-radius: 7px;
+}
+.add{
+    -fx-background-color: #3465FF;
+    -fx-text-fill: white;
+    -fx-border-radius: 7px;
+    -fx-background-radius: 7px;
+}
+.discard{
+    -fx-background-color: white;
+    -fx-text-fill: black;
+    -fx-border-color: #dad7d7;
+    -fx-border-radius: 7px;
+    -fx-background-radius: 7px;
+}
+.add:hover{
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.3), 20, 0.3, 0, 12);
+}
+.discard:hover{
+    -fx-background-color: red;
+    -fx-text-fill: white;
+    -fx-border-color: none;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.3), 20, 0.3, 0, 12);
+}
+
