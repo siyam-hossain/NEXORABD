@@ -17,9 +17,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<!--        com.sh.nexorabd.controllers.AdminDashboardAddController-->
-
-<AnchorPane prefHeight="680.0" prefWidth="1200.0" style="-fx-background-color: white;" stylesheets="@styles/admin-dashboard-add.css" xmlns="http://javafx.com/javafx/24.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.sh.nexorabd.controllers.AdminDashboardAddController">
+<AnchorPane prefHeight="680.0" prefWidth="1200.0" style="-fx-background-color: white;" stylesheets="@styles/admin-dashboard-add.css" xmlns="http://javafx.com/javafx/24.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.sh.nexorabd.AdminDashboardUpadateController">
    <children>
       <Pane prefHeight="680.0" prefWidth="140.0">
          <children>
@@ -53,7 +51,7 @@
                         <Cursor fx:constant="HAND" />
                      </cursor>
                   </HBox>
-                  <HBox alignment="CENTER_LEFT" layoutX="20.0" layoutY="125.0" prefHeight="42.0" prefWidth="120.0" spacing="5.0">
+                  <HBox alignment="CENTER_LEFT" layoutX="20.0" layoutY="125.0" prefHeight="42.0" prefWidth="120.0" spacing="5.0" styleClass="dashboard-button">
                      <children>
                         <ImageView>
                            <image>
@@ -72,12 +70,8 @@
                      <cursor>
                         <Cursor fx:constant="HAND" />
                      </cursor>
-                     <styleClass>
-                        <String fx:value="dashboard-button" />
-                        <String fx:value="selected" />
-                     </styleClass>
                   </HBox>
-                  <HBox alignment="CENTER_LEFT" layoutX="20.0" layoutY="177.0" prefHeight="42.0" prefWidth="120.0" spacing="5.0" styleClass="dashboard-button">
+                  <HBox alignment="CENTER_LEFT" layoutX="20.0" layoutY="177.0" prefHeight="42.0" prefWidth="120.0" spacing="5.0">
                      <children>
                         <ImageView>
                            <image>
@@ -96,6 +90,10 @@
                      <cursor>
                         <Cursor fx:constant="HAND" />
                      </cursor>
+                     <styleClass>
+                        <String fx:value="dashboard-button" />
+                        <String fx:value="selected" />
+                     </styleClass>
                   </HBox>
                   <HBox alignment="CENTER_LEFT" layoutX="20.0" layoutY="224.0" prefHeight="42.0" prefWidth="120.0" spacing="5.0" styleClass="dashboard-button">
                      <children>
@@ -165,7 +163,7 @@
       </ImageView>
       <AnchorPane layoutX="140.0" layoutY="90.0" prefHeight="590.0" prefWidth="1061.0" style="-fx-background-color: #efefef;">
          <children>
-            <Label layoutX="5.0" text="New Product" textFill="#3465ff">
+            <Label layoutX="5.0" text="Update Product" textFill="#3465ff">
                <font>
                   <Font name="System Bold" size="20.0" />
                </font>
@@ -324,17 +322,18 @@
                         <DatePicker layoutX="19.0" layoutY="27.0" prefHeight="34.0" prefWidth="427.0" styleClass="field" />
                      </children>
                   </Pane>
-                  <Button layoutX="352.0" layoutY="468.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="122.0" styleClass="add" text="Add Product">
+                  <Button layoutX="334.0" layoutY="468.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="140.0" styleClass="add" text="Update Product">
                      <font>
                         <Font name="System Bold" size="14.0" />
                      </font>
                   </Button>
-                  <Button layoutX="268.0" layoutY="468.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="75.0" styleClass="discard" text="Discard">
+                  <Button layoutX="249.0" layoutY="468.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="75.0" styleClass="discard" text="Cancel">
                      <font>
                         <Font name="System Bold" size="14.0" />
                      </font>
                   </Button>
-               </children></Pane>
+               </children>
+            </Pane>
          </children>
       </AnchorPane>
    </children>
